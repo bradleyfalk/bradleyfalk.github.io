@@ -186,3 +186,9 @@ menu {
         color: #121212;
     }
 }
+
+@media print {
+    html {
+        text-size-adjust: 75%;
+    }
+}
