@@ -19,6 +19,8 @@ article::after {
 .title {
     font-size: 4em;
     font-weight: lighter;
+    line-height: 1em;
+    margin: 2rem 0;
 }
 .h1 {
     font-size: 2em;
