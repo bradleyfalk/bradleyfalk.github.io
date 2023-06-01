@@ -130,17 +130,19 @@ a:visited {
     line-height: 2.2em;
 }
 
-table {
+.table {
     text-indent: 0;
     border-color: inherit;
     border-collapse:separate;
 }
 
 .timeline {
-    white-space: nowrap;
-    text-align: right;
-    padding-right: 1rem;
     font-size: 0.85em;
+}
+.seperator {
+    border-top: 1px solid;
+    filter: invert(0.5);
+    width: 5rem;
 }
 .timeline > p {
     margin: 0.5em 0;
@@ -194,6 +196,9 @@ menu {
 }
 
 @media (max-width: 1024px) {
+    html {
+        text-size-adjust: 125%;
+    }
     body {
         margin: 0 2rem;
         overflow-x: hidden;
