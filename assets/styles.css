@@ -192,3 +192,11 @@ menu {
         text-size-adjust: 75%;
     }
 }
+
+@media (max-width: 1024px) {
+    body {
+        margin: 0 2rem;
+        overflow-x: hidden;
+        padding-top: 0;
+    }
+}
