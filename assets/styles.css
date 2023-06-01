@@ -4,7 +4,7 @@ html {
     -moz-tab-size: 4;
     tab-size: 4;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Inter', SansSerif
+    font-family: 'Inter', serif
 }
 
 article::before, article::after {
@@ -202,7 +202,7 @@ menu {
 
 @media (max-width: 1024px) {
     html {
-        text-size-adjust: 125%;
+        font-size: 13pt;
     }
     body {
         margin: 0 2rem;
