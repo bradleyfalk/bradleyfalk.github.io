@@ -93,7 +93,10 @@ strong {
 small {
     font-size: 80%;
 }
-
+.avatar{
+    height: 1em;
+    width: 1em;
+}
 .contact {
     display: flex;
     justify-content: space-between;
