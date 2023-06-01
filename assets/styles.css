@@ -202,7 +202,7 @@ menu {
 
 @media (max-width: 1024px) {
     html {
-        font-size: 13pt;
+        font-size-adjust: 0.75;
     }
     body {
         margin: 0 2rem;
