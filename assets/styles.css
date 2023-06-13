@@ -131,6 +131,7 @@ a:visited {
     font-weight: bolder;
     font-size: smaller;
     line-height: 2.2em;
+    white-space: nowrap;
 }
 
 .table {
