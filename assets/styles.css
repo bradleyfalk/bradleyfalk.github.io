@@ -82,12 +82,18 @@ article::after {
     font-weight: bold;
     margin-top: 2em;
 }
+.h3 {
+    color: #444444;
+    font-weight: bold;
+    margin-top: 2em;
+    font-size: small;
+}
 
 article {
     max-width: 50rem;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 small {
@@ -140,6 +146,10 @@ a:visited {
     border-collapse:separate;
 }
 
+.row {
+    padding-bottom: 3rem;
+}
+
 .timeline {
     font-size: 0.85em;
 }
@@ -153,7 +163,6 @@ a:visited {
 }
 .job-description {
     padding-top: 0.5em;
-    padding-bottom: 3rem;
 }
 
 td {
