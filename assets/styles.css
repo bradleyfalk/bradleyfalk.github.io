@@ -204,7 +204,13 @@ menu {
 
 @media print {
     body {
-
+        font-size: 0.85em;
+    }
+    article {
+        page-break-after: always;
+    }
+    .timeline {
+        page-break-inside: avoid;
     }
 }
 
@@ -224,5 +230,4 @@ menu {
     .contact div {
         font-size: 0.8em;
     }
-
 }
