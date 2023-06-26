@@ -209,6 +209,9 @@ menu {
     article {
         page-break-after: always;
     }
+    .title {
+        margin: 0 0 2rem 0;
+    }
     .timeline {
         page-break-inside: avoid;
     }
