@@ -205,12 +205,11 @@ menu {
 @media print {
     body {
         font-size: 0.85em;
+        padding: 1rem 0 0 0;
     }
     article {
         page-break-after: always;
-    }
-    .title {
-        margin: 0 0 2rem 0;
+        padding: 0;
     }
     .timeline {
         page-break-inside: avoid;
